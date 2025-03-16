@@ -10,7 +10,7 @@ LightGCN-Recommendation/
 ├── requirements.txt        # Python dependencies
 ├── data/                   # Directory for downloaded data (created at runtime)
 ├── notebooks/
-│   └── LightGCN_Recommender.ipynb   # Optional Colab/Jupyter notebook with full pipeline
+│   └── Recommendation_code.ipynb   # Optional Colab/Jupyter notebook with full pipeline
 └── src/
     ├── data.py             # Data download & processing
     ├── model.py            # LightGCN model definition
@@ -70,7 +70,7 @@ This script will:
 
 ### 🏋️ b. Train the Model
 
-To train the **LightGCN** model, run:
+To train the **GCN** model, run:
 
 ```bash
 python src/train.py
